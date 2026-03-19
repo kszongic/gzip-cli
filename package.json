@@ -1,0 +1,21 @@
+{
+  "name": "@kszongic/gzip-cli",
+  "version": "1.0.0",
+  "description": "Compress and decompress files/stdin using gzip from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "gzip-cli": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "keywords": ["gzip", "compress", "decompress", "zlib", "gunzip", "cli"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/gzip-cli"
+  },
+  "homepage": "https://github.com/kszongic/gzip-cli#readme",
+  "files": ["index.js", "README.md", "LICENSE"]
+}
